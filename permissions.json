@@ -1,0 +1,28 @@
+[
+    {
+        "name" :"D1",
+        "include": ["India"],
+        "exclude": ["Chennai-Tamil Nadu-India"],
+        "inherit":""
+    }, {
+        "name" :"D2",
+        "include": [],
+        "exclude": ["Karnataka-India"],
+        "inherit":"D1"
+    }, {
+        "name" :"D3",
+        "include": [],
+        "exclude": ["Madhya Pradesh-India"],
+        "inherit":"D2"
+    }, {
+        "name" :"D4",
+        "include": ["India"],
+        "exclude": ["Gwalior-Madhya Pradesh-India","Tamil Nadu-India"],
+        "inherit":""
+    }, {
+        "name" :"D5",
+        "include": ["Tamil Nadu-India"],
+        "exclude": ["Chennai-Tamil Nadu-India"],
+        "inherit":""
+    }
+]
